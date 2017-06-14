@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<script src="../../common/js/jquery.js"></script>
+		<script src="../js/login.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var Login = new Logging('.loginWrap') 
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_inner"></div>
+		</div>
+		<div id="main">
+			<div class="main-bg"></div>
+			<div class="main-inner">
+				<div class="qrcode-pop">
+					<div class="close-qrcode-pop">x</div>
+					<p class="accountApp-tittle">扫码下载账号卫士</p>
+					<img src="../../resource/img/360app-qrcode.png" alt="" />
+					<p class="qrcode-tip">下载神器</p>
+					<p class="qrcode-tip">掌握安全，告别盗号</p>
+				</div>
+				<div class="content-layout">
+					<div class="uc-logincode">
+						<span class="login-type-tip">扫码登陆在这里</span>
+						<a href="#"></a>
+					</div>
+					<div class="loginWrap">
+						<h1 class="login-title">账号登陆</h1>
+						<div class="quc-tip-wrapper"></div>
+						<input type="text" placeholder="手机号/用户名/邮箱" class="username"/>
+						<input type="password" placeholder="密码/动态密码" class="password"/>
+						<div class="uc-btn">
+							<a href="#" class="forgetPass">找回密码？</a>
+							<a href="#" class="toregister">注册账号</a>
+						</div>
+						<input type="button" class="login-btn"  value="登陆"/>
+						<div class="third-btns">
+							<span>其他账号登陆：</span>
+							<a href="#" class="sina"></a>
+							<a href="#" class="renren"></a>
+							<a href="#" class="fetion"></a>
+							<a href="#" class="telecom"></a>
+							<a href="#" class="tencent"></a>
+							<a href="#" class="weixin"></a>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="other-question">
+				<ul>
+					<li>
+						<a href="#">
+							<span class="info-icon complain"></span>
+							<span class="info-txt">
+								<p>账号申诉</p>
+								<p>人工客服解决问题</p>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="info-icon help"></span>
+							<span class="info-txt">
+								<p>帮助中心</p>
+								<p>查看常见用户问题</p>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="info-icon getpass"></span>
+							<span class="info-txt">
+								<p>找回密码</p>
+								<p>自助找回账号密码</p>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="info-icon safe"></span>
+							<span class="info-txt">
+								<p>账号安全</p>
+								<p>下载神器告别盗号</p>
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<p>Copyright©2005-2017 360.CN All Rights Reserved 360安全中心</p>
+			<div class="txt1"><a href="#">京ICP证080047号[京ICP备08010314号-6]</a></div>
+			<div class="txt"><a href="#">
+				<img src="../../resource/img/wangan-icon.png"/>
+				京公网安备 11000002000006号
+			</a></div>
+		</div>
+	</body>
+</html>

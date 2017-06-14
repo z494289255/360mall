@@ -1,0 +1,340 @@
+/*以下是top部分样式*/
+.top_t{
+	background: #363636;
+	height: 36px;
+}
+.top_t_inner{
+	width: 1240px;
+	margin: 0 auto;
+	color: #bfbfbf;
+}
+.top_t_inner .list1 li{
+	float: left;
+	line-height: 36px;
+	margin-right: 20px;
+}
+.top_t_inner .list1 .telshop i{
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 2px;
+	width: 22px;
+	height: 15px;
+	background: url(../../resource/img/head-icons.png) no-repeat -2px -268px;
+	animation: mymove 0.3s linear 0s infinite;
+}
+@keyframes mymove{
+	0%{transform: rotateZ(-15deg)}
+	50%{transform: rotateZ(15deg)}
+	100%{transform: rotateZ(-15deg)}
+}
+.top_t_inner .list2{
+	float: right;
+}
+.top_t_inner .list2 li{
+	float: left;
+	line-height: 36px;
+	margin-left: 20px;
+}
+/*以下是header部分样式*/
+#header{
+	height: 118px;
+	border: 1px solid #000;
+}
+.header_inner{
+	width: 1240px;
+	height: 118px;
+	margin: 0 auto;
+	position: relative;
+}
+.header_inner .logo{
+	width: 150px;
+	height: 118px;
+	display: block;
+	float: left;
+}
+.header_inner .logo img{
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	margin-top: 39px;
+}
+#main{
+	padding: 20px 0 30px 0;
+}
+.cartBox{
+	width: 1240px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}
+.cartBox .hd{
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+	padding-left: 15px;
+	font-size: 18px;
+	color: #000;
+}
+.cartBox .info{
+	width: 1210px;
+	padding: 15px;
+	overflow: hidden;
+}
+.cartBox .info .address{
+	overflow: hidden;
+	font-size: 14px;
+	float: right;
+}
+.cartBox .info .address .g-address{
+	display: inline-block;
+	color: #005ea7;
+}
+.cartBox .info .address i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 7px;
+	height: 4px;
+	background: url(../../resource/img/icon-list.png) no-repeat -130px 0;
+	cursor: pointer;
+}
+.cartBox .info .cart-list{
+	border: 1px solid #DCDDDE;
+	width: 100%;
+	border-bottom: 0;
+}
+.cartBox .info .cart-list thead tr{
+	background: #F9FAFB;
+	height: 38px;
+}
+.cartBox .info .cart-list thead tr .allCheck{
+	width: 16px;
+	height: 16px;
+	background: #33A745 url(../../resource/img/gou.png);
+	display: inline-block;
+	margin: 0 5px 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+
+.cartBox .info .cart-list tbody tr .CheckBox{
+	width: 16px;
+	height: 16px;
+	background: #33A745 url(../../resource/img/gou.png);
+	display: block;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+.cartBox .info .cart-list tbody td .minus{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.cartBox .info .cart-list tbody td .plus{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+	float: left;
+	cursor: pointer;
+}
+.cartBox .info .cart-list tbody td .count{
+	width: 40px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+	float: left;
+}
+.cartBox .info .cart-list td{
+	font-size: 12px;
+	padding-left: 25px;
+	border-bottom: 1px solid #DCDDDE;
+}
+.cartBox .info .cart-list .col1{
+	width: 60px;
+}
+.cartBox .info .cart-list .col3{
+	width: 100px;
+}
+.cartBox .info .cart-list .col4{
+	width: 140px;
+	text-align: center;
+	overflow: hidden;
+}
+.cartBox .info .cart-list .col5{
+	width: 100px;
+}
+.cartBox .info .cart-list .col6{
+	width: 90px;
+}
+.cartBox .info .cart-list .col2{
+	overflow: hidden;
+}
+.cartBox .info .cart-list .col2 .goods{
+	float: left;
+	margin: 10px 0;
+}
+.cartBox .info .cart-list .col2 .goods img{
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	display: inline-block;
+}
+.cartBox .info .cart-list .col2 .goods span{
+	width: 280px;
+	display: inline-block;
+	vertical-align: top;
+}
+.cartBox .info .cart-list .col2 .good-des{
+	width: 120px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.cartBox .info .cart-list .col2 .zp{
+	float: left;
+	width: 400px;
+	margin-bottom: 10px;
+	color: #999999;
+}
+.cartBox .statistics{
+	border: 1px solid #EAEBEC;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	margin-top: 15px;
+}
+.cartBox .statistics .topay{
+	background: #FF8200;
+	color: #fff;
+	font-size: 20px;
+	display: block;
+	width: 196px;
+	float: right;
+	text-align: center;
+	font-weight: 900;
+	cursor: pointer;
+}
+.cartBox .statistics .description{
+	float: right;
+	line-height: 20px;
+	margin-top: 5px;
+	margin-right: 40px;
+	width: 120px;
+}
+.cartBox .statistics .description .facePrice{
+	color: #FF8200;
+}
+.cartBox .statistics .goods_num{
+	float: right;
+	font-size: 14px;
+	margin-right: 50px;
+}
+.cartBox .statistics .goods_num .goods-count{
+	color: #FF8200;
+	margin: 0 5px;
+}
+/*以下是footer部分样式*/
+.footer_top{
+
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.footer_top_inner{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 16px 0;
+	font-size: 16px;
+	color: #302E33;
+	overflow: hidden;
+}
+.footer_top ul li{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 33%;
+	text-align: center;
+	border-right: 1px solid #e8e8e8;
+}
+.footer_top ul li span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #23ac38;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 10px;
+}
+.footer_middle{
+	border-bottom: 1px solid #e8e8e8;	
+}
+.footer_middle .footer_middle_inner{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 30px 0;
+	overflow: hidden;
+}
+.footer_middle .footer_middle_inner dl{
+	float: left;
+	width: 15%;
+	margin-left: 100px;
+}
+.footer_middle .footer_middle_inner dl dt{
+	font-size: 16px;
+	color: #302E33;
+	line-height: 40px;
+}
+.footer_middle .footer_middle_inner dl dd{
+	line-height: 30px;
+	vertical-align: middle;
+}
+.footer_middle .footer_middle_inner dl .number{
+	color: #4aba00;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.footer_middle .footer_middle_inner .servicebox{
+	width: 150px;
+	float: left;
+	overflow: hidden;
+	margin-left: 125px;
+}
+.footer_middle .footer_middle_inner .servicebox .weixin_icon{
+	float: left;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+.footer_middle .footer_middle_inner .servicebox .WeChatCode{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.footer_middle .footer_middle_inner .servicebox .weibo_icon{
+	float: left;
+	margin-right: 15px;
+	margin-top: 48px;
+}
+.footer_middle .footer_middle_inner .servicebox .WeiboCode{
+	margin-top: 18px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.footer_bottom{
+	height: 82px;
+	line-height: 82px;
+	text-align: center;
+}

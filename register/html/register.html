@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
+		<link rel="stylesheet" href="../css/register.css" />
+		<script src="../../common/js/jquery.js"></script>
+		<script src="../js/register.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var login = new Login('.loginBox');
+
+
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_inner">
+				<span class="page-title"><a href="#">注册账户</a></span>
+				<span class="login"><a href="#">登录</a></span>
+			</div>			
+		</div>
+		<div id="main">
+			<div class="loginBox">
+				<h2>注册360账号</h2>
+				<div class="usernameBox">
+					<input type="text" placeholder="请输入要注册的手机号" />				
+				</div>
+				<div class="user-point"></div>
+				<div class="passwordBox">
+					<input type="password" placeholder="密码请设置8-20个字符" />
+				</div>
+				<div class="password-point"></div>
+				<div class="verifyBox">
+					<input type="text" placeholder="请输入验证码" /><span class="verification-code"></span>					
+				</div>	
+				<div class="verify-point"></div>
+				<input type="button" value="下一步" class="nextBtn"/>
+				<p>点击“下一步”，即表示您已同意并愿意遵守<a href="#">《360用户服务条款》</a></p>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer-top">
+				<a href="#">帮助中心</a>
+				<a href="#">立即申诉</a>
+			</div>
+			<p>Copyright©2005-2017 360.CN All Rights Reserved 360安全中心</p>
+			<div class="txt1"><a href="#">京ICP证080047号[京ICP备08010314号-6]</a></div>
+			<div class="txt"><a href="#">
+				<img src="../../resource/img/wangan-icon.png"/>
+				京公网安备 11000002000006号
+			</a></div>
+		</div>
+	</body>
+</html>

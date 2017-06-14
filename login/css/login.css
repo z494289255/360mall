@@ -1,0 +1,281 @@
+
+#header{
+	padding: 20px 0;
+}
+.header_inner{
+	width: 1180px;
+	margin: 0 auto;
+	height: 52px;
+	background: url(../../resource/img/uc-i360-logo.png) no-repeat;
+}
+#main{
+	width: 100%;
+	position: relative;
+}
+.main-bg{
+	width: 100%;
+	height: 645px;
+	background: url(../../resource/img/login-bg.png) no-repeat center;
+	background-size:cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main-inner{
+	width: 1220px;
+	height: 645px;
+	position: relative;
+	margin: 0 auto;
+}
+.main-inner .qrcode-pop{
+	width: 150px;
+	height: 200px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	background: #fff;
+	cursor: pointer;
+}
+.main-inner .qrcode-pop img{
+	width: 114px;
+	height: 119px;
+	display: block;	
+	margin: 0 auto;
+}
+.main-inner .qrcode-pop .accountApp-tittle{
+	font-size: 13px;
+	color: #009900;
+	margin: 10px 0;
+}
+.main-inner .qrcode-pop .close-qrcode-pop{
+	position: absolute;
+	right: 5px;
+	top: 0;
+	font-size: 18px;
+	color: #c9ad5b;
+	cursor: pointer;
+}
+.main-inner .qrcode-pop .qrcode-tip{
+	width: 114px;
+	color: #9d9d9d;
+	margin: 0 auto;
+	text-align: left;
+}
+.main-inner .content-layout{
+	position: absolute;
+	right: 0;
+	top: 114px;
+	width: 345px;
+	background: #fff;
+	height: 400px;
+}
+.main-inner .content-layout .uc-logincode{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.main-inner .content-layout .uc-logincode .login-type-tip{
+	width: 110px;
+	height: 25px;
+	line-height: 25px;
+	color: #22ac69;
+	background: url(../../resource/img/login-type-arrowBg.png) no-repeat;
+	padding-left: 10px;
+	position: absolute;
+	left: -120px;
+	top: 12px;
+	display: block;
+	
+}
+.main-inner .content-layout .uc-logincode a{
+	width: 54px;
+	height: 54px;
+	background: url(../../resource/img/uc-two-code.png) no-repeat;
+	display: inline-block;
+	margin: 6px 6px 0 0;
+}
+.main-inner .content-layout .loginWrap{
+	padding: 25px 25px;
+}
+.main-inner .content-layout .loginWrap h1{
+	font-size: 20px;
+	padding: 20px 0;
+}
+.main-inner .content-layout .loginWrap .quc-tip-wrapper{
+	height: 24px;
+	line-height: 24px;
+	color: red;
+	font-size: 16px;
+}
+.main-inner .content-layout .loginWrap .username{
+	height: 48px;
+	width: 245px;
+	border: 1px solid #ccc;
+	background: url(../../resource/img/uc-account-icon.png) no-repeat 10px center;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+.main-inner .content-layout .loginWrap .password{
+	height: 48px;
+	width: 245px;
+	border: 1px solid #ccc;
+	background: url(../../resource/img/uc-password-icon.png) no-repeat 10px center;
+	padding-left: 40px;
+}
+.main-inner .content-layout .loginWrap .uc-btn{
+	margin: 20px 0 20px 0;
+}
+.main-inner .content-layout .loginWrap .uc-btn .toregister{
+	margin-left: 170px;
+}
+.main-inner .content-layout .loginWrap .login-btn{
+	background: #22ac69;
+	height: 40px;
+	width: 295px;
+	font-size: 14px;
+	border-radius: 5px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+}
+.main-inner .content-layout .loginWrap .third-btns{
+	margin-top: 20px;
+}
+.main-inner .content-layout .loginWrap .third-btns a{
+	background: url(../../resource/img/third-login-icon.png);
+	width: 25px;
+	height: 25px;
+	margin-right: 3px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.main-inner .content-layout .loginWrap .third-btns .sina{
+	background-position: -27px 0;
+}
+.main-inner .content-layout .loginWrap .third-btns .sina:hover{
+	background-position: 0 0;
+}
+.main-inner .content-layout .loginWrap .third-btns .renren{
+	background-position: -27px -108px;
+}
+.main-inner .content-layout .loginWrap .third-btns .renren:hover{
+	background-position: 0 -108px;
+}
+.main-inner .content-layout .loginWrap .third-btns .fetion{
+	background-position: -27px -81px;
+}
+.main-inner .content-layout .loginWrap .third-btns .fetion:hover{
+	background-position: 0 -81px;
+}
+.main-inner .content-layout .loginWrap .third-btns .telecom{
+	background-position: -27px -135px;
+}
+.main-inner .content-layout .loginWrap .third-btns .telecom:hover{
+	background-position: 0 -135px;
+}
+.main-inner .content-layout .loginWrap .third-btns .tencent{
+	background-position: -27px -27px;
+}
+.main-inner .content-layout .loginWrap .third-btns .tencent:hover{
+	background-position: 0 -27px;
+}
+.main-inner .content-layout .loginWrap .third-btns .weixin{
+	background-position: -27px -54px;
+}
+.main-inner .content-layout .loginWrap .third-btns .weixin:hover{
+	background-position: 0 -54px;
+}
+.other-question{
+	width: 1140px;
+	margin: 20px auto 30px auto;
+	overflow: hidden;
+}
+.other-question ul li{
+	width: 240px;
+	margin: 0 20px;
+	border: 1px solid #c3c3c3;
+	float: left;
+	height: 60px;
+}
+.other-question ul li:hover{
+	
+	border: 1px solid #22ac69;
+}
+.other-question ul li a{
+	display: block;
+}
+.other-question ul li a .info-icon{
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	background: url(../../resource/img/go-complaint-gray.png) no-repeat;
+	margin: 15px 0 0 36px;
+}
+.other-question ul li:hover a .complain{
+	background: url(../../resource/img/go-complaint-green.png) no-repeat;
+}
+.other-question ul li a .help{
+	background: url(../../resource/img/frequent-question-icon.png) no-repeat;
+}
+.other-question ul li:hover a .help{
+	background: url(../../resource/img/frequent-question-icon-green.png) no-repeat;
+}
+.other-question ul li a .getpass{
+	background: url(../../resource/img/find-password-icon.png) no-repeat;
+}
+.other-question ul li:hover a .getpass{
+	background: url(../../resource/img/find-password-icon-green.png) no-repeat;
+}
+.other-question ul li a .safe{
+	background: url(../../resource/img/account-security-icon.png) no-repeat;
+}
+.other-question ul li:hover a .safe{
+	background: url(../../resource/img/account-security-icon-green.png) no-repeat;
+}
+.other-question ul li:hover a span p{
+	color: #22ac69;
+}
+.other-question ul li a .info-txt{
+	width: 130px;
+	height: 40px;
+	text-align: left;
+	float: right;
+	margin-top: 12px;
+	margin-right: 15px;
+}
+.other-question ul li a .info-txt p:nth-child(2){
+	font-size: 16px;
+	
+}
+#footer{
+	text-align: center;
+	padding-bottom: 12px;
+	color: #999;
+}
+#footer .footer-top a{
+	padding: 0 19px;
+	line-height: 19px;
+	border-right: 1px solid #828282;
+}
+#footer .footer-top a:nth-child(2){
+	border: 0;
+}
+#footer .txt img{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+#footer .txt1 a{
+	color: #999;
+}
+#footer .txt a{
+	height: 20px;
+	display: inline-block;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #999;
+}

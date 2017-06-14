@@ -1,0 +1,185 @@
+/*以下是top部分样式*/
+.top_t{
+	background: #363636;
+	height: 36px;
+}
+.top_t_inner{
+	width: 1240px;
+	margin: 0 auto;
+	color: #bfbfbf;
+}
+.top_t_inner .list1 li{
+	float: left;
+	line-height: 36px;
+	margin-right: 20px;
+}
+.top_t_inner .list1 .telshop i{
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 2px;
+	width: 22px;
+	height: 15px;
+	background: url(../../resource/img/head-icons.png) no-repeat -2px -268px;
+	animation: mymove 0.3s linear 0s infinite;
+}
+@keyframes mymove{
+	0%{transform: rotateZ(-15deg)}
+	50%{transform: rotateZ(15deg)}
+	100%{transform: rotateZ(-15deg)}
+}
+.top_t_inner .list2{
+	float: right;
+}
+.top_t_inner .list2 li{
+	float: left;
+	line-height: 36px;
+	margin-left: 20px;
+}
+/*以下是header部分样式*/
+#header{
+	height: 118px;
+	border: 1px solid #000;
+}
+.header_inner{
+	width: 1240px;
+	height: 118px;
+	margin: 0 auto;
+	position: relative;
+}
+.header_inner .logo{
+	width: 150px;
+	height: 118px;
+	display: block;
+	float: left;
+}
+.header_inner .logo img{
+	display: inline-block;
+	height: 40px;
+	width: 150px;
+	margin-top: 39px;
+}
+#main{
+	padding: 20px 0 30px 0;
+}
+.cartBox{
+	width: 1240px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}
+.cartBox h3{
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+	padding-left: 15px;
+	font-size: 18px;
+	color: #000;
+}
+.cartBox .info{
+	width: 900px;
+	height: 268px;
+	padding: 15px;
+	background: url(../../resource/img/cart_empty.jpg);
+}
+.cartBox .info .toshoping{
+	display: block;
+	width: 158px;
+	height: 40px;
+	background: url(../../resource/img/qiku_bg.png) no-repeat 0 -1934px;
+	margin-top: 140px;
+	margin-left: 325px;
+}
+/*以下是footer部分样式*/
+.footer_top{
+
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.footer_top_inner{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 16px 0;
+	font-size: 16px;
+	color: #302E33;
+	overflow: hidden;
+}
+.footer_top ul li{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 33%;
+	text-align: center;
+	border-right: 1px solid #e8e8e8;
+}
+.footer_top ul li span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #23ac38;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 10px;
+}
+.footer_middle{
+	border-bottom: 1px solid #e8e8e8;	
+}
+.footer_middle .footer_middle_inner{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 30px 0;
+	overflow: hidden;
+}
+.footer_middle .footer_middle_inner dl{
+	float: left;
+	width: 15%;
+	margin-left: 100px;
+}
+.footer_middle .footer_middle_inner dl dt{
+	font-size: 16px;
+	color: #302E33;
+	line-height: 40px;
+}
+.footer_middle .footer_middle_inner dl dd{
+	line-height: 30px;
+	vertical-align: middle;
+}
+.footer_middle .footer_middle_inner dl .number{
+	color: #4aba00;
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 30px;
+	vertical-align: middle;
+}
+.footer_middle .footer_middle_inner .servicebox{
+	width: 150px;
+	float: left;
+	overflow: hidden;
+	margin-left: 125px;
+}
+.footer_middle .footer_middle_inner .servicebox .weixin_icon{
+	float: left;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+.footer_middle .footer_middle_inner .servicebox .WeChatCode{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.footer_middle .footer_middle_inner .servicebox .weibo_icon{
+	float: left;
+	margin-right: 15px;
+	margin-top: 48px;
+}
+.footer_middle .footer_middle_inner .servicebox .WeiboCode{
+	margin-top: 18px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.footer_bottom{
+	height: 82px;
+	line-height: 82px;
+	text-align: center;
+}

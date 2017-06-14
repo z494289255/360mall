@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/itemlist.css"/>
+		<script src="../../common/js/jquery.js"></script>
+		<script src="../../common/js/jquery.cookie.js"></script>
+		<script src="../../common/js/ShopCart.js"></script>
+		<script src="../../common/js/SecondList.js"></script>
+		<script src="../../index/js/GoTop.js"></script>
+		<script src="../js/toCart.js"></script>
+		<script src="../js/Sort.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var navSubList = new NavSubList('.nav_inner');
+				var cart = new ShopCart('.shoppingCart-box');
+				var priceSort = new Sort('#main');
+				var select = new Select('#main');
+				var popup = new PopupBtn('.clearfix');
+				var gotopBtn = new GoTop('.rightsub');
+				var goods = new GoodObj('.list-box');
+
+			})
+		</script>
+		<title></title>
+	</head>
+	<body>
+		<div id="top">
+			<div class="top_t">
+				<div class="top_t_inner">
+					<ul class="list1">
+						<li><a href="#">帮助中心</a></li>
+						<li><a href="#">收藏本站</a></li>
+						<li><a href="../../index/index.html" target="_blank" class="telshop">
+							<i></i>
+							手机360商城
+						</a></li>
+					</ul>
+					<ul class="list2">
+						<li><a href="#">登陆</a></li>
+						<li><a href="#">注册</a></li>
+						<li><a href="#">我的订单</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="top_b">
+				<div class="top_b_inner">
+					<img src="../../resource/img/top_b.png"/>
+				</div>				
+			</div>
+		</div>
+		<div id="header">
+			<div class="header_inner">
+				<a href="#" class="logo" ><img src="../../resource/img/360malllogo.png"/></a>
+				<div class="search">
+					<input type="text" placeholder="F4S" class="left"/>
+					<input type="button" value="" class="right"/>
+					<ul class="header_list">
+						<li><a href="#">SE2代</a></li>
+						<li><a href="#">智能摄像机</a></li>
+						<li><a href="#">360手机N5</a></li>
+						<li><a href="#">行车记录仪美猴王</a></li>
+					</ul>
+				</div>
+				<div class="shoppingCart-box">
+					<a href="#" class="shoppingCart">　　我的购物车<span class="count1">(0)</span></a>
+					<div class="cart">
+						<div class="cart-tip" style="display: none;">您的购物车还没有商品，赶紧去选购吧！</div>
+						<div class="cart-info">
+							<ul class="cart-list">
+								<!--<li class="cart-item">
+									<a href="#" class="cart-item-img">
+										<img src="../../resource/img/58cf7130Nb47a347e.jpg"/>
+										<span class="cart-item-txt">倍思（Baseus）Type-C/安卓/苹果手机三合一快充数据线充电线 iPhone6s/7p小米5s乐视2华为p10数据线 1.2米 红色</span>								
+									</a>
+									<span class="cart-item-price">￥19.80</span>
+									<span class="cart-item-num">x1</span>
+									<a class="cart-item-del"></a>
+								</li>-->
+								
+							</ul>
+							<div class="cart-count">
+								<span>共<i class="count2"></i>件商品 总计：<i class="total-price"></i></span>
+								<a href="../../cart/html/cartlist.html" class="cart-buy">去购物车</a>
+							</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+		<div id="nav">
+			<div class="nav_inner">
+				<ul class="nav_list">				
+					<li class="first"><a href="#">全部智能酷品</a></li>
+					<li><a href="#">手机</a></li>
+					<li><a href="#">行车记录仪</a></li>
+					<li><a href="#">儿童手表</a></li>
+					<li><a href="#">摄像机</a></li>
+					<li><a href="#">路由器</a></li>
+					<li><a href="#">二手手机</a></li>
+					<li><a href="#">社区</a></li>
+					<div class="subBox">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" class="firstPic" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="subBox">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/2ceea3da-0173-41de-957b-00f16c04b297.jpg" alt="" class="firstPic" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+									<span>N5S 6GB+64GB 幻影</span>
+									<i>1699.00</i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+		</div>
+		<div id="main">
+			<div class="main_inner">
+				<div class="search-box">
+					<span class="default_path">
+						<a href="#">首页</a>
+						<i>&gt;</i>
+						<a href="#" >全部搜索结果</a>
+					</span>
+					<div class="breadcrumbs_box">
+						<a href="#">手机</a>
+					</div>
+					<span class="qword">全部</span>
+				</div>
+				<div class="filter-box">
+					<div class="classification">
+						<div class="hint">分类：</div>
+						<div class="option">
+							<a href="#" title="手机配件">手机配件</a>
+							<a href="#" title="二手手机">二手手机</a>
+							<a href="#" title="手机通讯">手机通讯</a>
+						</div>
+					</div>
+					<div class="clearfix">
+						<div class="hint">品牌：</div>
+						<div class="option option1">
+							<a  href="#" title="洛克">洛克</a>
+							<a href="#" title="倍思">倍思</a>
+							<a href="#" title="360">360</a>
+							<a href="#" title="Apple">Apple</a>
+							<a href="#" title="酷波">酷波</a>
+							<a href="#" title="朗客">朗客</a>
+							<a href="#" title="机乐堂">机乐堂</a>
+							<a href="#" title="摩米士">摩米士</a>
+							<a href="#" title="Anker">Anker</a>
+							<a href="#" title="BIAZE">BIAZE</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>
+							<a href="#" title="罗马仕">罗马仕</a>						
+							<div class="findmore">
+								<a href="#">查看更多<span></span></a>
+							</div>
+						</div>
+						<div class="last">
+							<div class="hint">排序：</div>
+							<div class="option">
+								<a href="#">默认</a>
+								<a href="#" class="priceBtn">价格</a>
+								<a href="#">销量</a>
+								<label><input type="checkbox"/>仅看有货产品</label>
+							</div>						
+						</div>
+					</div>
+				</div>			
+			</div>
+			<div class="list-box">
+				<ul class="list">
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/59366f2cNf6b122c8.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">【两片装】YOMO iPhone7/6/6s钢化膜 手机贴膜 保护膜 苹果7/6/6s手机膜 防刮防爆高透膜 非全屏两片装</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">12.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/59252b4dNf7a60992.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">酷波【三件装】苹果7/6/5s手机数据线/充电线 1米 银色 支持iphone5/6s/7 Plus/SE/ipad air mini等</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">29.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/59350265Nf381bf4f.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">倍思（Baseus）Type-C/安卓/苹果手机三合一快充数据线充电线 iPhone6s/7p小米5s乐视2华为p10数据线 1.2米 红色</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">29.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58d9d14eN36084ebd.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">亿觅（emie）小恶魔折纸公仔 个性潮酷 卡通可爱 创意折纸</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">9.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58f75d0dN4547af6e.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">岳迩（YUEER）手机便携支架 金属指环扣支架 创意配件车载懒人支架 适用于iPhone 6S/三星/华为等手机 银色</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">1.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/592f5f03N2c8eb7a7.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">摩奇思(mokis)苹果7/6/5s数据线充电线编织线 1米 土豪金 3条装适用于iphone7/6s/6Plus/5s/ipad air/mini</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">28.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58cf7130Nb47a347e.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">洛克（ROCK）苹果数据线锌合金可爱卡通鸡充电线 适用于苹果6iPhone7Plus/6/6s/5/se/iPad4/Air 1米 红色</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">15.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58b50741N86259ecc.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">【二手9成新】vivo X7 金色 4 64G 全网通</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">1699.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/591d16e1N70694a9b.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">倍思（Baseus）苹果6/6s手机壳 iphone6手机套6/6s磨砂韩国潮男硬壳 全包款4.7寸透黑</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">25.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58733702N1959633d.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">【二手99新】Apple iPhone6s Plus 苹果手机 深空灰色 128G 全网通 在保</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">4999.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/591d06a5N21f8a279.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">Capshi Type-C数据线×2件套装 安卓手机充电线电源线 1米金+银 支持华为P9/mate9麦芒5/荣耀V8/乐视1S2/小米5</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">19.80</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/587362f0N85c77ab8.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">【二手9成新】Apple iPhone6 苹果6手机 金色 16G 全网通 过保</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">1999.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/587362f0N85c77ab8.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">【二手9成新】Apple iPhone6 苹果6手机 金色 16G 全网通 过保</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">1899.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58b3e933N42ddcd3d.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">360 K1605 360手机N5磨砂保护壳</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">38.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58b3ea91N5e9d2d40.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">360 WH17 360悦耳耳机</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">98.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/58b3e356N4a8f9575.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">360手机N5钢化玻璃膜(白色)</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">48.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/59254234N36998432.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">洛克ROCK iphone6splus全屏膜 苹果6s plus全屏钢化膜/防爆玻璃膜/iphone6手机贴膜 白色</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">19.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/56e64cbfN7d2a242c.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">雷曼克斯（LineMax）LM-002A音量控制 专业对讲机耳机 K口通用</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">19.90</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/56e64cb0N7c9c3cd2.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">雷曼克斯（LineMax）LM-001A笑脸 耳挂式对讲机耳机 K口通用</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">16.80</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+					<li class="list-item">
+						<dl>
+							<dt>
+								<a href="#"><img src="../../resource/img/592f7054Nab4de924.jpg"/></a>
+							</dt>
+							<dd>
+								<a href="#">
+									<span class="title">诺希 苹果数据线 一拖三三合一 安卓充电器线/苹果6数据线 1米白 通用iPhone6S/5S/7 ipad 荣耀畅玩6X/5c</span>
+									<span class="oprice">
+										<i>￥</i>
+										<span class="price">25.00</span>
+									</span>
+								</a>
+							</dd>
+							<dd class="addbtn">
+								<a href="#" class="addcart">加入购物车</a>
+							</dd>
+						</dl>
+					</li>
+				</ul>	
+			</div>
+		</div>
+				<div id="footer">
+			<div class="footer_top">
+				<div class="footer_top_inner">
+					<ul>
+						<li>
+							<span>7</span>
+							7天无理由退货
+						</li>
+						<li>
+							<span>15</span>
+							质量问题15天换货
+						</li>
+						<li style="border: 0;">
+							<span>包</span>
+							满99元包邮
+						</li>
+					</ul>
+				</div>				
+			</div>
+			<div class="footer_middle">
+				<div class="footer_middle_inner">
+					<dl>
+						<dt>帮助中心</dt>
+						<dd><a href="#">用户登陆与密码找回</a></dd>
+						<dd><a href="#">用户注册协议</a></dd>
+						<dd><a href="#">购买指南</a></dd>
+						<dd><a href="#">支付方式</a></dd>
+						<dd><a href="#">配送与说明</a></dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="#">7天无理由退货</a></dd>
+						<dd><a href="#">质量问题15天换货</a></dd>
+						<dd><a href="#">保修条款</a></dd>
+						<dd><a href="#">售后服务运费规则</a></dd>
+					</dl>
+					<dl>
+						<dt>联系我们</dt>
+						<dd class="number">400-6822-360</dd>
+						<dd>周一至周日 9:00-18:00</dd>
+						<dd style="color: #4aba00;"><span class="number">400-0111-366</span>（手机类产品）</dd>
+						<dd>周一至周日 8:00-22:00</dd>
+						<dd>（仅收市话费）</dd>
+					</dl>
+					<div class="servicebox">
+						<img src="../../resource/img/weixin_icon.png" class="weixin_icon"/>
+						<img src="../../resource/img/qcode_app.jpg"/ class="WeChatCode">
+						<a href="#"><img src="../../resource/img/weibo_icon.png" class="weibo_icon"/></a>
+						<a href="#"  class="WeiboCode"><img src="../../resource/img/wbewm.jpg"/></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">360商城©2013-2017 360公司版权所有 京ICP备17017089号 京公网安备11000002000006号</div>
+		</div>
+		<div class="rightsub">
+			<ul>
+				<li style="display: none;">
+					<img src="../../resource/img/lscoupon.png"/>
+				</li>
+				<li>
+					<img src="../../resource/img/lswechat.png"/>
+				</li>
+				<li>
+					<img src="../../resource/img/lsstore.png"/>
+				</li>
+				<li style="display: none;" class="gotopBtn">
+					<img src="../../resource/img/totopnew.png"/>
+				</li>
+			</ul>
+		</div>
+	</body>
+
+</html>

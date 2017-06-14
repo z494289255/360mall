@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../common/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/cartlist.css"/>
+		<script src="../../common/js/jquery.js"></script>
+		<script src="../../common/js/jquery.cookie.js"></script>
+		<script src="../js/cart.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var goods = new GetGoodObj('.cartBox');
+			})
+			
+		</script>
+		
+	</head>
+	<body>
+		<div id="top">
+			<div class="top_t">
+				<div class="top_t_inner">
+					<ul class="list1">
+						<li><a href="#" class="telshop">
+							<i></i>
+							手机360商城
+						</a></li>
+					</ul>
+					<ul class="list2">
+						<li><a href="#">登陆</a></li>
+						<li><a href="#">注册</a></li>
+						<li><a href="#">我的订单</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+			<div class="header_inner">
+				<a href="#" class="logo" ><img src="../../resource/img/360malllogo.png"/></a>
+			
+			</div>
+		</div>
+		<div id="main">
+			<div class="cartBox">
+				<h3 class="hd">我的购物车</h3>
+				<div class="info">
+					<div class="address">
+						<span>配送至</span>
+						<div class="g-address">北京 朝阳区 三环以内</div>
+						<i></i>
+					</div>
+					<table class="cart-list" cellspacing="0">
+						<thead>
+							<tr>
+								<td class="col1"><span class="allCheck"></span>全选</td>
+								<td class="col2">商品</td>
+								<td class="col3">单价</td>
+								<td class="col4">数量</td>
+								<td class="col5">小计</td>
+								<td class="col6">操作</td>
+							</tr>
+						</thead>
+						<tbody class="cart-contain">
+							<!--<tr>
+								<td class="col1"><span class="CheckBox"></span></td>
+								<td class="col2">
+									<a href="" class="goods">
+										<img src="../../resource/img/59223fa1N27dc3881.jpg" alt="" />
+										<span class="title">【套装版】360手机 N5S 全网通 6GB 64GB 幻影黑色 移动联通电信4G手机 双卡双待</span>
+									</a>
+									<div class="good-des">
+										<span class="color">颜色：幻影黑</span><br />
+										<span class="model">型号：套装版</span>	
+									</div>
+									<p class="zp">【赠品】360手机 N5S 钢化玻璃膜(黑色)</p>
+									<p class="zp">【赠品】360手机 N5S 保护壳 黑色</p>
+									<p class="zp">【赠品】360 WH17 360悦耳耳机</p>
+									<p class="zp">【赠品】美逸 10000毫安 移动电源/充电宝 双USB输出聚合物 白色</p>
+								</td>
+								<td class="col3">
+									<strong class="price">￥1849.00</strong>
+								</td>
+								<td class="col4">
+									<span class="minus">-</span>
+									<span class="count">1</span>
+									<span class="plus">+</span>
+								</td>
+								<td class="col5">
+									<strong class="subtotal-price">￥1849.00</strong>
+								</td>
+								<td class="col6">
+									<a href="#" class="del">删除</a>
+								</td>
+							</tr>-->
+						</tbody>
+					</table>
+					<div class="statistics">
+						<a href="#" class="topay">去结算</a>
+						<div class="description">
+							<p>
+								<span class="pricename">总价：</span>
+								<span>￥<span class="facePrice">0</span></span>
+							</p>
+							<p>
+								<span class="pricename">已优惠：</span>
+								<span class="cashBack">0</span>
+							</p>
+						</div>
+						<div class="goods_num">已选择<span class="goods-count">0</span>件商品</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_top">
+				<div class="footer_top_inner">
+					<ul>
+						<li>
+							<span>7</span>
+							7天无理由退货
+						</li>
+						<li>
+							<span>15</span>
+							质量问题15天换货
+						</li>
+						<li style="border: 0;">
+							<span>包</span>
+							满99元包邮
+						</li>
+					</ul>
+				</div>				
+			</div>
+			<div class="footer_middle">
+				<div class="footer_middle_inner">
+					<dl>
+						<dt>帮助中心</dt>
+						<dd><a href="#">用户登陆与密码找回</a></dd>
+						<dd><a href="#">用户注册协议</a></dd>
+						<dd><a href="#">购买指南</a></dd>
+						<dd><a href="#">支付方式</a></dd>
+						<dd><a href="#">配送与说明</a></dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="#">7天无理由退货</a></dd>
+						<dd><a href="#">质量问题15天换货</a></dd>
+						<dd><a href="#">保修条款</a></dd>
+						<dd><a href="#">售后服务运费规则</a></dd>
+					</dl>
+					<dl>
+						<dt>联系我们</dt>
+						<dd class="number">400-6822-360</dd>
+						<dd>周一至周日 9:00-18:00</dd>
+						<dd style="color: #4aba00;"><span class="number">400-0111-366</span>（手机类产品）</dd>
+						<dd>周一至周日 8:00-22:00</dd>
+						<dd>（仅收市话费）</dd>
+					</dl>
+					<div class="servicebox">
+						<img src="../../resource/img/weixin_icon.png" class="weixin_icon"/>
+						<img src="../../resource/img/qcode_app.jpg"/ class="WeChatCode">
+						<a href="#"><img src="../../resource/img/weibo_icon.png" class="weibo_icon"/></a>
+						<a href="#"  class="WeiboCode"><img src="../../resource/img/wbewm.jpg"/></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">360商城©2013-2017 360公司版权所有 京ICP备17017089号 京公网安备11000002000006号</div>
+		</div>
+	</body>
+</html>
